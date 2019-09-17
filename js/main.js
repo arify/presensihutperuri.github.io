@@ -25,7 +25,7 @@
     $('.validate-form').on('submit',function(){
         var check = true;
 
-        if($(email).val().trim().match(/^(pL[0-9]|Pl[0-9]|b|f|g|h|r|pl[0-9]|m|[0-9]|B|F|G|H|R|PL[0-9]|M)[0-9]{3}$/) == null) {
+        if($(email).val().trim().match(/^(pL[0-9]|Pl[0-9]|b|f|g|h|r|pl[0-9]|m|[0-9]|B|F|G|H|R|PL[0-9]|M|D|d|Q|q)[0-9]{3}$/) == null) {
             showValidate(email);
             check=false;
         }
